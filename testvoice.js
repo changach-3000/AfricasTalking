@@ -2,8 +2,8 @@
 const Africastalking = require('africastalking');
 
 // Initialize the Africa's Talking SDK
-const username = "SafeWithUs";    // Replace with your Africa's Talking API username
-const apiKey = "3c7d2f2d591eb61fb420e1a4067cfe6c01d635a448b2dcf0c5827979d42ca90d";       // Replace with your Africa's Talking API key
+const username = "your_username";    // Replace with your Africa's Talking API username
+const apiKey = "your_api_key";       // Replace with your Africa's Talking API key
 const AT = Africastalking({username: username, apiKey: apiKey});
 
 // Create a function to initiate the voice call for user authorization
