@@ -1,7 +1,7 @@
 // Set your Africa's Talking API credentials
 const credentials = {
-    apiKey: '3c7d2f2d591eb61fb420e1a4067cfe6c01d635a448b2dcf0c5827979d42ca90d',
-    username: 'SafeWithUs'
+    apiKey: 'your_api_key',
+    username: 'your_username'
 };
 
 const AfricasTalking = require('africastalking')(credentials);
