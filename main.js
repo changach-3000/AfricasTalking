@@ -2,8 +2,8 @@
 const router = require('express').Router();
 const { VoiceHelper } = require('./helper');
 
-let AT_apiKey = "3c7d2f2d591eb61fb420e1a4067cfe6c01d635a448b2dcf0c5827979d42ca90d",
-    AT_username = "SafeWithUs",
+let AT_apiKey = "your_api_key",
+    AT_username = "your_username",
     AT_virtualNumber = "+254730731516",
     APP_URL ="https://11ce-41-139-168-163.ngrok-free.app" ;
 
